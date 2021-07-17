@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI Template</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        #main {
+            background-image: url('imgmi.jpg');
+            background-size: 100% 100%;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #child{
+            border: 2px solid pink;
+            border-radius: 25px;
+            box-shadow: 5px 2px 14px pink;
+            color: white;
+            width: 60vw;
+            height: 53vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        img{
+            position: absolute;
+            width: 50px;
+            left: 430px;
+            top: 95px;
+
+        }
+
+
+        h1::after {
+            content: "coming soon";
+            display: block;
+            width: 400px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="child">
+            <div id = "img1">
+                <img src="mi.png" alt="">
+            </div>
+            <h1>Fantastic and futuristic</h1>
+        </div>
+    </div>
+</body>
+
+</html>
